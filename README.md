@@ -1,6 +1,6 @@
-# ros2_docker
-「Ubuntu + ROS2 」を含むDocker環境を提供します.  
-Provides a Docker environment including "Ubuntu + ROS2".
+# cuda_docker
+「Ubuntu + CUDA 」を含むDocker環境を提供します.  
+Provides a Docker environment including "Ubuntu + CUDA".
 
 ## Prerequisites
 - docker installed. [How to Install(ubuntu20.04)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ja)
@@ -75,5 +75,3 @@ BSD
 
 ## Tested on ...
 - ubuntu 20.04 LTS
-# cuda_docker
-# cuda_docker
