@@ -23,7 +23,7 @@ xhost +local:
 launch (Rename containers as necessary)
 ```
 xhost +local:
-docker start my-<branch name>
+docker start my-cuda
 ```
 login
 ```
@@ -31,10 +31,10 @@ login
 ```
 close (Rename containers as necessary)
 ```
-docker stop my-<branch name>
+docker stop my-cuda
 ```
 ## File sharing (hotst <---> docker)
-The folder ~/ros2_docker/docker_share on the host PC and the folder ~/host_files on docker are bind-mounted.  
+The folder ~/cuda_docker/docker_share on the host PC and the folder ~/host_files on docker are bind-mounted.  
 You can communicate in both directions. However, if something in the folder is deleted, it will be reflected in both.
 ![Screenshot from 2023-10-14 21-36-14](https://github.com/masakifujiwara1/ros2_docker/assets/72371743/b3142be3-44d8-4581-b2b0-de0aa8658865)
 
